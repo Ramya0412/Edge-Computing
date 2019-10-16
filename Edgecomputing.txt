@@ -1,0 +1,518 @@
+EGDE COMPUTING
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- NOTE: DISABLED! -->
+<!-- Global site tag (gtag.js) - Google Analytics 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123844797-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-123844797-1');
+</script>
+-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects - SURFsara Viz</title>
+  <meta name="description" content="SURFsara visualisation group">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/css/breadcrumb-style.css" media="screen" type="text/css">
+  <link rel="canonical" href="/projects/">
+  <!-- <link rel="alternate" type="application/rss+xml" title="Visualization at SURFsara" href="/feed.xml"> -->
+  <style>
+    body{
+        background-color: #ffffff;
+        font-family:Arial, sans-serif;
+        font-size:13px;
+    }
+    @font-face {
+      font-family: 'proximanovasoft';
+      src: url('/fonts/proximanovasoft-bold-webfont.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'VarelaRound';
+      src: url('/fonts/VarelaRound-Regular.ttf') format('truetype');
+    }
+    body h1{
+        font-family:'VarelaRound';
+        font-size:42px;
+        color:#000000;
+    }
+    body h2{
+        font-family:'proximanovasoft';
+        font-size:22px;
+        color:#000000;
+    }
+    body h3{
+        font-family:Arial, sans-serif;
+        font-size:15px;
+        color:#000000;
+    }
+    .site-title {
+        font-family:'VarelaRound';
+    }
+    a:link      { color: #128744; text-decoration: none; }
+    a:visited   { color: #128744; text-decoration: none; }
+    a:hover     { color: #128744; text-decoration: underline; }
+    a:active    { color: #128744; text-decoration: none; }
+    div.footnotes {
+      padding-top: 50px;
+      color: #c0c0c0;
+    }
+    div.footnotes ol {
+      border-top: 1px solid #c0c0c0;
+    }
+    </style>
+</head>
+  <body>
+    <header class="site-header" role="banner">
+  <div class="wrapper">
+    <a class="site-title" href="/">Visualization at SURFsara</a>
+  </div>
+  <div class="wrapper">
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+      <div class="trigger">         
+            <a class="page-link" href="/about/">About</a>
+            <a class="page-link" href="/contact/">Contact</a>
+            <a class="page-link" href="/courses/">Courses</a>
+            <a class="page-link" href="/events/">Events</a>
+            <a class="page-link" href="/gallery/">Gallery</a>
+            <a class="page-link" href="/infrastructure/">Infrastructure &amp; equa>            
+            <a class="page-link" href="/projects/">Projects</a>
+            <a class="page-link" href="/publications/">Publications</a>
+            <a class="page-link" href="/tag_overview/">Topics</a>
+            <a class="page-link" href="/vc">Visualization Competition</a>
+      </div>
+    </nav>    
+  </div>
+</header>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <nav class="breadcrumbs bootstrap hidden-sm-down">
+    <ol class="breadcrumb list-unstyled" vocab="http://schema.org/" typeof="BreadcrumbList">
+            <li class="breadcrumb-item breadcrumb-item-icon" property="itemListElement" typeof="ListItem">
+               <a property="item" typeof="WebPage" href="/">
+                  <span property="name">Home</span>
+                  <!-- <span class="icon" property="name"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="16px" id="Layer_1" style="enable-background:new 0 0 16 16;" version="1.1" viewBox="0 0 16 16" width="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M15.45,7L14,5.551V2c0-0.55-0.45-1-1-1h-1c-0.55,0-1,0.45-1,1v0.553L9,0.555C8.727,0.297,8.477,0,8,0S7.273,0.297,7,0.555  L0.55,7C0.238,7.325,0,7.562,0,8c0,0.563,0.432,1,1,1h1v6c0,0.55,0.45,1,1,1h3v-5c0-0.55,0.45-1,1-1h2c0.55,0,1,0.45,1,1v5h3  c0.55,0,1-0.45,1-1V9h1c0.568,0,1-0.437,1-1C16,7.562,15.762,7.325,15.45,7z"/></svg></span> -->
+                  <meta property="position" content="1" />
+               </a>
+            </li>
+            <li class="breadcrumb-item" property="itemListElement" typeof="ListItem">
+                <span property="name">Projects</span>
+                <meta property="position" content="2" />
+            </li>
+    </ol>
+</nav>
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">Projects</h1>
+  </header>
+  <div class="post-content">
+    <p>An overview of current and past projects that we work on and/or are involved in.
+Note that this table of contents is sorted alphabetically, while the detailed overview below is sorted
+based on the activity of the projects.</p>
+<!-- A manual table of content, as the automatic TOC only works for markdown files :-/ PM 30-3-2017 -->
+<ul id="markdown-toc">
+  <li><a href="#enduser-projects">Projects with end-users</a>
+    <ul>
+      <li><a href="#project-3dataprint" id="markdown-toc-hpc-systems">3DATAPRINT</a> - 3D printing for scientific visualization</li>
+      <li><a href="#project-birdvis" id="markdown-toc-hpc-systems">BirdVis</a> - Visualization tools for tracking bird migration behaviour</li>
+      <li><a href="#project-compbiomed" id="markdown-toc-hpc-systems">CompBioMed</a> - Visualization of red-blood cell simulations</li>
+      <li><a href="#project-dome_animations_iuc" id="markdown-toc-hpc-systems">Dome animations</a> - Network visualizations in support of a presentation</li>
+      <li><a href="#project-fortissimo2_hemosphere" id="markdown-toc-hpc-systems">Fortissimo 2 HemoSphere</a> - Lab-on-a-chip prototyping</li>
+      <li><a href="#project-fortissimo_rheocube" id="markdown-toc-hpc-systems">Fortissimo RheoCube</a> - Visualizations for a virtual rheology lab in Jupyter Notebooks</li>
+      <li><a href="#project-futurebase" id="markdown-toc-hpc-systems">FutureBase</a> - Supporting strategic forecasting using big data analysis</li>
+      <li><a href="#project-genevis" id="markdown-toc-hpc-systems">Genevis</a> - An interactive visualization tool for combining cross-discipline datasets within genetics</li>
+      <li><a href="#project-twilight" id="markdown-toc-hpc-systems">Twilight</a> - An interactive graph visualization tool</li>
+      <li><a href="#project-virtual_supermarket" id="markdown-toc-hpc-systems">Virtual supermarket</a> - A research tool for studying consumer food purchasing behaviour</li>
+    </ul>
+  </li>
+  <li><a href="#demos-and-pocs">Technology demonstrations &amp; proof of concepts</a>
+    <ul>
+      <li><a href="#demo-vr_asp_with_datacenter" id="markdown-toc-hpc-systems">Amsterdam Science Park and new data center in VR</a> </li>
+      <li><a href="#demo-nfta_cinegrid" id="markdown-toc-hpc-systems">Compositing in the Cloud</a> - Real-time distributed compositing of live actors in a virtual 3D scene</li>
+      <li><a href="#demo-sc18_iamsupercomputing" id="markdown-toc-hpc-systems">IAMSUPERCOMPUTING (at SC18)</a> </li>
+      <li><a href="#demo-sc17_ar" id="markdown-toc-hpc-systems">Network automation and orchestration in AR (at SC17)</a> </li>
+      <li><a href="#demo-openfoam_vr" id="markdown-toc-hpc-systems">OpenFOAM CFD visualization in VR</a> </li>
+      <li><a href="#demo-sc16_vr_nfv" id="markdown-toc-hpc-systems">Out-of-body experience (at SC16)</a> </li>
+      <li><a href="#demo-" id="markdown-toc-hpc-systems">Remote visualization web-portal</a> </li>
+      <li><a href="#demo-glif_streaming_2010" id="markdown-toc-hpc-systems">Single Server 40 Gbit/s Disk to Network Streaming</a> </li>
+    </ul>
+  </li>
+</ul>
+<h2 id="enduser-projects">Projects with end-users</h2>
+<table>
+  <tr id="project-dome_animations_iuc">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/projects/information_universe_dome.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/dome_animations_iuc">Dome animations</a><span style="float:right">2018</span></h3>
+        <h4 style='margin-top: 0px'><p>Network visualizations in support of a presentation</p>
+</h4>
+        <p>
+        <p>To support a presentation in the DOT Groningen we created a number
+of animations and images for projection in a dome cinema.
+The extra visuals - animations and images - were used to explain concepts with respects to networks,
+their properties and information propagation within them, plus some other fun things.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="project-fortissimo2_hemosphere">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/projects/hemosphere.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/fortissimo2_hemosphere">Fortissimo 2 HemoSphere</a><span style="float:right">2017 - now</span></h3>
+        <h4 style='margin-top: 0px'><p>Lab-on-a-chip prototyping</p>
+</h4>
+        <p>
+        <p>Within the Fortissimo 2 project SURFsara works with Electric Ant Lab on
+the realization of a virtual lab for microfluidic devices called Hemosphere.
+This virtual lab offers a fully virtual counterpart to physical testing. The
+simulation combines sophisticated numerical techniques and modern parallellization
+using GPUs to calculate accurate, validated cell-mechanics, blood flow and biochemical dynamics.</p>
+<p>An important part of the virtual lab is performing interactive data analysis of simulation results.
+The basis for this analysis is the Jupyter Notebook system, which provides an easy-to-use and flexible
+interactive Python environment. Within the HemoSphere project SURFsara focuses on developing interactive
+rendering of 3D cell data and volumetric data within the Jupyter Notebook.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="project-compbiomed">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/projects/compbiomed.jpg"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/compbiomed">CompBioMed</a><span style="float:right">2017 - now</span></h3>
+        <h4 style='margin-top: 0px'><p>Visualization of red-blood cell simulations</p>
+</h4>
+        <p>
+        <p>CompBioMed is a European Commission H2020 funded Centre of Excellence focussed
+on the use and development of computational methods for biomedical applications.
+Project partners are (amongst others) SURFsara, the University of Amsterdam, BSC and University College London.</p>
+<p>As part of project outreach activities a 6-minute animation has been produced that showcases the different
+research topics of the project partners. The movie shows the possibilities of using high performance computing (HPC)
+and computational biomedicine to delve deeper into the processes taking place within the body.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="project-birdvis">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/projects/birdvis.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/birdvis">BirdVis</a><span style="float:right">2014 - now</span></h3>
+        <h4 style='margin-top: 0px'><p>Visualization tools for tracking bird migration behaviour</p>
+</h4>
+        <p>
+        <p>The University of Amsterdam (UvA) has developed a system for tracking bird movements
+and behaviour, called <a href="http://www.uva-bits.nl/">UvA-BiTS</a> (for Bird Tracking System).
+Part of this system is a <a href="http://www.uva-bits.nl/virtual-lab/">virtual lab for bird movement modelling</a>.
+Data sources used in this system include GPS tracks and accelerometer data of individual
+birds, but also environmental data such as meteorological conditions (ECMWF) or sea currents (Delft3D).</p>
+<p>Some of the tools in the virtual lab, specifically those for visualization, were
+developed by SURFsara: BirdView is a tool for visually inspecting and analyzing several data sources, such
+as GPS tracks of individual birds. Environmental data, such as precipitation and
+wind, can be shown in separate layers for correlation purposes.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="project-virtual_supermarket">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/projects/virtual_supermarket.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/virtual_supermarket">Virtual supermarket</a><span style="float:right">2010 - now</span></h3>
+        <h4 style='margin-top: 0px'><p>A research tool for studying consumer food purchasing behaviour</p>
+</h4>
+        <p>
+        <p>In a virtual supermarket customers do virtual shopping in a digital environment.
+This makes it possible to research factors which influence purchasing behaviour,
+such as price, labelling and location of items. Participants receive a login for
+the supermarket which is linked automatically to a specific research term, such as a tax on soft drinks.</p>
+<p>The virtual supermarket was conceived by VU University and built and further developed by SURFsara.
+It is a shared project of VU University and SURFsara. Since the first project in 2008 several other
+studies have been performed over the years, based on further developed versions
+of the supermarket software. The virtual supermarket has been used for research
+by VU University, the University of Oxford and the University of Auckland.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="project-3dataprint">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/projects/3d_printing.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/3dataprint">3DATAPRINT</a><span style="float:right">2017 - 2018</span></h3>
+        <h4 style='margin-top: 0px'><p>3D printing for scientific visualization</p>
+</h4>
+        <p>
+        <p>These days 3D printing has become relatively accessible, with a number of
+commercial parties providing 3D printing services at reasonable prices. However,
+printing scientific data can still be a challenge, for example, due to the
+amount of detail present in scientific models.</p>
+<p>SURFsara has realised a number of 3D printed use case together with scientific
+users. A follow-up project, called 3DATAPRINT, extended this work on more
+use cases.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="project-fortissimo_rheocube">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/projects/rheocube.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/fortissimo_rheocube">Fortissimo RheoCube</a><span style="float:right">2016</span></h3>
+        <h4 style='margin-top: 0px'><p>Visualizations for a virtual rheology lab in Jupyter Notebooks</p>
+</h4>
+        <p>
+        <p>RheoCube is a complete simulation environment, developed and marketed by
+<a href="http://www.electricant.com">Electric Ant Lab</a>, for the design
+of complex fluids and exploration of their rheology and transport properties in a
+virtual environment. With RheoCube, material scientists get access to
+virtually every information about their materials and can expose them to
+situations that are difficult to realize in experiments.</p>
+<p>An important part of the virtual lab is performing interactive data analysis
+of simulated rheology results. Within the <a href="https://www.fortissimo-project.eu/">Fortissimo</a> RheoCube project
+our group worked on developing 3D visualization of simulation results (cell and volumetric data).
+As the post-processing and analysis framework used in RheoCube is based on <a href="http://jupyter.org/">Jupyter Notebooks</a>
+the visualizations needed to be integrated witin these notebooks.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="project-genevis">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/projects/genevis.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/genevis">Genevis</a><span style="float:right">2015 - 2016</span></h3>
+        <h4 style='margin-top: 0px'><p>An interactive visualization tool for combining cross-discipline datasets within genetics</p>
+</h4>
+        <p>
+        <p>GeneVis is an interactive web-based visualization and exploration tool, that
+allows combining cross-discipline datasets within genetics.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="project-futurebase">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/projects/futurebase.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/futurebase">FutureBase</a><span style="float:right">2014 - 2016</span></h3>
+        <h4 style='margin-top: 0px'><p>Supporting strategic forecasting using big data analysis</p>
+</h4>
+        <p>
+        <p>The FutureBase project aimed at supporting strategic forecasting using various
+sources of data (from small to big data) and was funded through the <a href="https://www.thehaguesecuritydelta.com/">Hague Security Delta</a>.
+Different data sets for two security-related themes - russia and drones -
+were collected, analyzed and visualized. Within the project we worked together
+with the SURFsara Scalable Data Analytics group for performing text-based analysis
+on a large collection of documents.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="project-twilight">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/projects/twilight.jpg"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/twilight">Twilight</a><span style="float:right">2011 - 2014</span></h3>
+        <h4 style='margin-top: 0px'><p>An interactive graph visualization tool</p>
+</h4>
+        <p>
+        <p>Twilight is an interactive graph visualization tool, originally developed
+for use on a multi-touch table.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+<p>
+<h2 id="demos-and-pocs">Technology demonstrations &amp; proof of concepts</h2>
+<table>
+  <tr id="demo-sc18_iamsupercomputing">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/demos/sc18_iamsupercomputing.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/sc18_iamsupercomputing">IAMSUPERCOMPUTING (at SC18)</a><span style="float:right">2018</span></h3>
+        <p>
+        <p>A tongue-in-cheek interactive VR birthday card for the 30th anniversary
+of the SuperComputing conference. Based on the world-famous IAMSTERDAM
+sign at the Museumplein in Amsterdam (since removed) visitors of
+the SURF booth at SC18 could place a photo of themselves, some text, 
+and a few images.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="demo-sc17_ar">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/demos/sc17_hololens.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/sc17_ar">Network automation and orchestration in AR (at SC17)</a><span style="float:right">2017</span></h3>
+        <p>
+        <p>A demonstration developed together with SURFnet, showing network
+orchestration in combination with an augmented reality interface
+using the Microsoft HoloLens. Shown at the Dutch Research Consortium
+booth at SuperComputing 2017.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="demo-openfoam_vr">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/demos/cfd_vive.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/openfoam_vr">OpenFOAM CFD visualization in VR</a><span style="float:right">2016 - 2017</span></h3>
+        <p>
+        <p>A demo to show interactive visualization in Virtual Reality of an OpenFOAM CFD simulation result.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="demo-">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/demos/remote_viz_web_portal.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'>Remote visualization web-portal<span style="float:right">2016 - 2017</span></h3>
+        <p>
+        <p>A development project to realize web-based remote visualization. Our current
+remote visualization setup is based on a separate remote desktop client (using VNC).
+This forces a user to install a client, plus the need to perform some manual steps
+in order to start a remote visualization session. By using a web portal for remote
+visualization a user can more easily start a session, while working fully in the browser (no separate client needed).</p>
+<p>Work on the portal was paused, due to changes in the remote visualization setup at SURFsara,
+but might get restarted at some point.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="demo-vr_asp_with_datacenter">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/demos/vr_asp_with_datacenter.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/vr_asp_with_datacenter">Amsterdam Science Park and new data center in VR</a><span style="float:right">2016 - 2017</span></h3>
+        <p>
+        <p>A virtual reality demonstration showing the Amsterdam Science Park
+with the new Digital Realty datacenter hosting the SURFsara e-Infrastructure.
+A user can walk around and jump between viewpoints (some high
+up on the roof). The outside of the datacenter can be hidden, showing
+the location of the e-Infrastructure within the building, also allowing
+one to visit the data floors.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="demo-sc16_vr_nfv">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/demos/sc16_vr_nfv.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/sc16_vr_nfv">Out-of-body experience (at SC16)</a><span style="float:right">2016</span></h3>
+        <p>
+        <p>A demonstration developed together with SURFnet, shown on the SURF booth
+at SuperComputing 2016.</p>
+<p>It involved capturing
+a person’s 3D model in the form of a point cloud, which could then be
+interyears_actively transformed by sending the point data over a network to
+processing nodes. The transformed data was then shown inside the VR
+headset, giving the person wearing it an out-of-body view of his/herself.</p>
+<p>The technology used included 3D interyears_active virtual reality, data streaming
+and processing and network function virtualization. Interaction within the
+virtual world was performed using hand gestures.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="demo-nfta_cinegrid">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/demos/nfta_cinegrid.png"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/nfta_cinegrid">Compositing in the Cloud</a><span style="float:right">2012</span></h3>
+        <h4 style='margin-top: 0px'><p>Real-time distributed compositing of live actors in a virtual 3D scene</p>
+</h4>
+        <p>
+        <p>Within the CineGrid Amsterdam project we worked with the Dutch Film Academy
+on a demonstration of real-time compositing of
+live actors in a virtual environment. The live scene was filmed in Amsterdam,
+while the composited results where shown and directed at Calit2 in San Diego.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr id="demo-glif_streaming_2010">
+    <td width="20%"><img style="border: 1px solid black" width="256" src="/images/demos/glif_2010.jpg"></td>
+    <td width="5%">&nbsp;</td>
+    <td width="75%">
+        <h3 style='margin-bottom: 0px; padding-bottom: 0px'><a href="/projects/glif_streaming_2010">Single Server 40 Gbit/s Disk to Network Streaming</a><span style="float:right">2010</span></h3>
+        <p>
+        <p>At the GLIF 2010 meeting we showed  what can be done with high-speed optical
+networks (40 Gbit/s) in combination with a high-resolution tiled panel display.
+We created a demonstration that streamed a semi-interyears_active visualization over
+a 40 Gbit/s light path from Amsterdam to CERN in Geneva.</p>
+    </td>
+  </tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td colspan="3"><hr></td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+  </div>
+</article>
+      </div>
+    </main>
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+              Visualization at SURFsara
+            </li>
+            <li><a href="mailto:visualization@surfsara.nl">visualization@surfsara.nl</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          <li>
+            <a href="https://twitter.com/SURFsara_nl"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">SURFsara_nl</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-3">
+        <a href="http://www.surfsara.nl"/><img src="/images/surfsara_logo.png"></a>
+        <a href="http://www.surf.nl/"><img src="/images/surf_logo.png"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
+
